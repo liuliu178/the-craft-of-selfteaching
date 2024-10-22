@@ -4,6 +4,7 @@ def is_prime(n):
     whether the argument n is a prime number.
     """
     if n < 2:
+        print("hello")
         return False
     if n == 2:
         return True
